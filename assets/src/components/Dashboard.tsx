@@ -292,7 +292,7 @@ const Dashboard = (props: RouteComponentProps) => {
 
       <Sider
         width={DASHBOARD_COLLAPSED_SIDER_WIDTH}
-        collapsed={true}
+        collapsed={false}
         style={{
           overflow: 'auto',
           height: '100vh',
