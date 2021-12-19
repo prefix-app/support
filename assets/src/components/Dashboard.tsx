@@ -291,7 +291,6 @@ const Dashboard = (props: RouteComponentProps) => {
       <DashboardHtmlHead totalNumUnread={totalNumUnread} />
 
       <Sider
-        width={DASHBOARD_COLLAPSED_SIDER_WIDTH}
         collapsed={false}
         style={{
           overflow: 'auto',
