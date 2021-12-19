@@ -11,7 +11,7 @@ const {REACT_APP_STRIPE_PUBLIC_KEY} = env;
 
 export const DASHBOARD_COLLAPSED_SIDER_WIDTH = 235;
 export const INBOXES_DASHBOARD_SIDER_WIDTH = 235;
-export const CONVERSATIONS_DASHBOARD_SIDER_WIDTH = 235;
+export const CONVERSATIONS_DASHBOARD_SIDER_WIDTH = 305;
 export const CONVERSATIONS_DASHBOARD_SIDER_OFFSET =
   DASHBOARD_COLLAPSED_SIDER_WIDTH + INBOXES_DASHBOARD_SIDER_WIDTH;
 export const CONVERSATIONS_DASHBOARD_OFFSET =
@@ -117,7 +117,8 @@ export const isValidUuid = (id: any) => {
     return false;
   }
 
-  const regex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+  const regex =
+    /^[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
   return regex.test(id);
 };
