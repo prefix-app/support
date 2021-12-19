@@ -1,12 +1,14 @@
 @import '~antd/dist/antd.css';
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
 html,
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, san-serif;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, san-serif;
   font-weight: 400;
   margin: 0;
 }

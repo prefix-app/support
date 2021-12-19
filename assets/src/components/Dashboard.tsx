@@ -304,16 +304,6 @@ const Dashboard = (props: RouteComponentProps) => {
         <Flex sx={{flexDirection: 'column', height: '100%'}}>
           <Box py={3} sx={{flex: 1}}>
             <Menu selectedKeys={[section, key]} mode="inline" theme="dark">
-              {isAdminUser && (
-                <Menu.Item
-                  key="getting-started"
-                  icon={<GlobalOutlined />}
-                  title="Getting started"
-                >
-                  <Link to="/getting-started">Getting started</Link>
-                </Menu.Item>
-              )}
-
               <Menu.Item
                 danger={shouldHighlightInbox}
                 key="conversations"

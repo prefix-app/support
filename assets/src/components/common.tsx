@@ -60,16 +60,16 @@ const {RangePicker} = DatePicker;
 export const colors = {
   white: '#fff',
   black: '#000',
-  primary: blue[5],
-  green: green[5],
-  red: red[5],
-  gold: gold[5],
-  volcano: volcano[5],
-  orange: orange[5],
-  purple: purple[5],
-  magenta: magenta[5],
-  blue: blue, // expose all blues
-  gray: grey, // expose all grays
+  primary: '#334155',
+  green: '#059669',
+  red: '#b91c1c',
+  gold: '#fde68a',
+  volcano: '#fdba74',
+  orange: '#fdba74',
+  purple: '#a5b4fc',
+  magenta: '#f0abfc',
+  blue: ['#eff6ff', '#dbeafe', '#bfdbfe', '#93c5fd', '#60a5fa', '#3b82f6', '#2563eb', '#1d4ed8', '#1e40af', '#1e3a8a'], // expose all blues
+  gray: ['#f9fafb', '#f3f4f6', '#e5e7eb', '#d1d5db', '#9ca3af', '#6b7280', '#4b5563', '#374151', '#1f2937', '#111827'], // expose all grays
   text: 'rgba(0, 0, 0, 0.65)',
   secondary: 'rgba(0, 0, 0, 0.45)',
   note: '#fff1b8',
